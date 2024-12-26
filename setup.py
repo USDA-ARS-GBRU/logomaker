@@ -1,7 +1,7 @@
 from setuptools import setup
 
 def readme():
-    with open('/deployment/README.rst') as f:
+    with open('deployment/README.rst') as f:
         return f.read()
 
 setup(name='logomaker',
